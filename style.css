@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main{
+    width: 100vw;
+    height: 100vh;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#first{
+    margin-bottom: 2vw; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#first h1{
+    margin-bottom: 10px;
+}
+
+#input{
+    display: flex;
+    gap:10px;
+}
+
+#input input{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#input button{
+    padding: 4px 20px;
+    color: #d5f4ff;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #074253;
+}
+
+img{
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#second{
+    display: flex;
+    flex-direction: row;
+    gap: 5vw
+}
+
+#profileImg{
+    margin-left: 10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#profileName{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+#following{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 5vw;
+    gap: 4vw;
+}
+
+#followingUpper{
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+}
+
+.foll{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.6vw;
+}
+
+#followingUpper .name{
+    font-size: 20px; 
+}
+
+#follkwingUpper .num{
+    font-size: 17px;
+}
+
+
+
+#followingLower button {
+    padding: 5px 50px;
+    color: #d5f4ff;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #074253;
+}
